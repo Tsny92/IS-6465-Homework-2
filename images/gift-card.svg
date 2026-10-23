@@ -1,0 +1,12 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="200" viewBox="0 0 320 200">
+    <rect x="4" y="4" width="312" height="192" rx="18" fill="#e32526"/>
+    <circle cx="275" cy="40" r="65" fill="#ffffff" opacity="0.12"/>
+    <circle cx="300" cy="165" r="80" fill="#ffffff" opacity="0.08"/>
+    <text x="28" y="55" font-family="Arial, sans-serif" font-size="24"
+          font-weight="bold" fill="#ffffff">AirAsia</text>
+    <text x="28" y="100" font-family="Arial, sans-serif" font-size="20"
+          fill="#ffffff">REWARDS</text>
+    <text x="28" y="165" font-family="Arial, sans-serif" font-size="16"
+          fill="#ffffff">GIFT CARD</text>
+</svg>

@@ -1,0 +1,262 @@
+/* General page styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f6f8;
+    color: #222;
+}
+
+/* Login page */
+.login-container {
+    max-width: 440px;
+    margin: 100px auto;
+    padding: 40px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.login-container h1 {
+    color: #e32526;
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.login-container h2 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Form controls */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+/* Primary buttons */
+.btn-primary {
+    display: inline-block;
+    width: 100%;
+    padding: 13px;
+    background-color: #e32526;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #c51f20;
+}
+
+/* Gift Card List page */
+.page-container {
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 0 24px;
+}
+
+.page-header {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.page-header h1 {
+    color: #e32526;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.page-header h2 {
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+/* Navigation links */
+.page-actions {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.btn-link {
+    display: inline-block;
+    padding: 12px 22px;
+    background-color: #e32526;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.btn-link:hover {
+    background-color: #c51f20;
+}
+
+/* Gift card grid */
+.gift-card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.gift-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.gift-card img {
+    width: 100%;
+    max-width: 220px;
+    height: 140px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.gift-card a {
+    color: #222;
+    text-decoration: none;
+}
+
+.gift-card a:hover h3 {
+    color: #e32526;
+}
+
+.gift-card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.gift-card p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #e32526;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+    .gift-card-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Gift Card Details page */
+.details-card {
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 35px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+.details-image {
+    width: 100%;
+    max-width: 260px;
+    height: 165px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.details-card h3 {
+    font-size: 22px;
+    margin: 10px 0 25px;
+}
+
+.details-info {
+    text-align: left;
+    background-color: #f5f6f8;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+.details-info p {
+    margin: 12px 0;
+    font-size: 16px;
+}
+
+.details-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.btn-secondary {
+    background-color: #555;
+}
+
+.btn-secondary:hover {
+    background-color: #333;
+}
+
+/* Add and Update Gift Card forms */
+.form-card {
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 35px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Style dropdowns to match text inputs */
+.form-group select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: white;
+}
+
+/* Form action buttons */
+.form-actions {
+    display: flex;
+    gap: 12px;
+    margin-top: 30px;
+}
+
+.form-actions .btn-primary,
+.form-actions .btn-link {
+    flex: 1;
+    width: auto;
+    text-align: center;
+}
+
+.form-actions .btn-link {
+    padding: 13px;
+}
+
+/* Stack buttons on smaller screens */
+@media (max-width: 480px) {
+    .form-actions {
+        flex-direction: column;
+    }
+}

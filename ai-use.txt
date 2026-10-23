@@ -1,0 +1,33 @@
+
+AI Tool Used:
+ChatGPT (University Account)
+
+Prompts Used:
+1. "Help me build my IS 6465 Homework 2 AirAsia Rewards Redemption System website using my HW1 wireframes and the assignment requirements."
+
+2. "Help me create the five required pages using HTML and CSS, saved as PHP files, with working navigation and forms."
+
+3. "Help me to test the website navigation, forms, and code to make sure it meets the homework requirements."
+
+4. "Review everything thoroughly to make sure we have hit every requirement."
+
+How AI Assisted:
+I used ChatGPT to:  
+    Help translate my HW1 wireframes into HTML and CSS.
+    Organize the project files.
+    Create the five required pages.
+    Connect the navigation and forms.
+    Step-by-step guidance for using GitHub Codespaces, testing the website, and troubleshooting issues.
+
+I reviewed the code, tested the pages in my browser, and verified that all five PHP files passed syntax checks.
+
+Example of an AI Suggestion I Changed:
+    ChatGPT initially recommended removing the Add Customer button from the Gift Card List because the customer page was not required for HW2.
+    I disagreed because my HW1 wireframe and the AirAsia Requirements Document included this button.
+    I chose to keep the button and modify its link so that clicking it stays on the Gift Card List page. 
+    I also labeled it "Add Customer (Coming Soon)" to indicate that the feature is not yet implemented. 
+    I tested the updated button and confirmed that it no longer leads to a 404 error.
+
+Technical Scope:
+    The website is a static HTML/CSS prototype. It does not include PHP processing logic, JavaScript, or a database. 
+    Form submissions simulate the workflow by navigating to the Gift Card List page.
